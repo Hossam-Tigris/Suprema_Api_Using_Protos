@@ -21,6 +21,7 @@
     <Folder Include="Assets\" />
     <Folder Include="DTOs\" />
     <Folder Include="InterFaces\" />
+    <Folder Include="NewFolder\" />
     <Folder Include="Services\" />
   </ItemGroup>
 	<ItemGroup>
