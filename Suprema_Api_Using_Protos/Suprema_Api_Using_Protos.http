@@ -1,0 +1,6 @@
+@Suprema_Api_Using_Protos_HostAddress = http://localhost:5153
+
+GET {{Suprema_Api_Using_Protos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
