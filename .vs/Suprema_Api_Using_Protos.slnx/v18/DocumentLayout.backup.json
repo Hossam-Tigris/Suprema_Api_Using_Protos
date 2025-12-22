@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Suprema.API\\Suprema_Api_Using_Protos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0648DC85-D414-42E2-A282-1A1580A168F1}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema.api\\suprema_api_using_protos\\suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0648DC85-D414-42E2-A282-1A1580A168F1}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Program.cs",
+              "ToolTip": "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:03:56.018Z",
+              "EditorCaption": ""
             }
           ]
         },

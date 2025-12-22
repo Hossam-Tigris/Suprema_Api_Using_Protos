@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Card.cs \
+obj\Debug\net8.0\Protos/CardGrpc.cs: Protos/err.proto\
+ Protos/card.proto

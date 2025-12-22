@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Finger.cs \
+obj\Debug\net8.0\Protos/FingerGrpc.cs: Protos/err.proto\
+ Protos/finger.proto

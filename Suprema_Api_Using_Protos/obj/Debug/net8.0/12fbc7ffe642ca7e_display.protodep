@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Display.cs \
+obj\Debug\net8.0\Protos/DisplayGrpc.cs: Protos/err.proto\
+ Protos/display.proto

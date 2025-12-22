@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Time.cs \
+obj\Debug\net8.0\Protos/TimeGrpc.cs: Protos/err.proto\
+ Protos/time.proto
