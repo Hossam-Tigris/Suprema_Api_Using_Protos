@@ -1,0 +1,4 @@
+obj\Debug\net8.0\Protos/Connect.cs \
+obj\Debug\net8.0\Protos/ConnectGrpc.cs: Protos/err.proto\
+ Protos/device.proto\
+ Protos/connect.proto

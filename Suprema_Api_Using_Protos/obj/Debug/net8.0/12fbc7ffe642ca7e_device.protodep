@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Device.cs \
+obj\Debug\net8.0\Protos/DeviceGrpc.cs: Protos/err.proto\
+ Protos/device.proto

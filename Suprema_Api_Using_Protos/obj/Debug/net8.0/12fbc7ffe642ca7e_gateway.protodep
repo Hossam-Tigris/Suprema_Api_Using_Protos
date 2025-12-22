@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Gateway.cs \
+obj\Debug\net8.0\Protos/GatewayGrpc.cs: Protos/cert.proto\
+ Protos/gateway.proto

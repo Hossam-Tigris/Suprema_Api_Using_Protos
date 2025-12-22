@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Face.cs \
+obj\Debug\net8.0\Protos/FaceGrpc.cs: Protos/err.proto\
+ Protos/face.proto

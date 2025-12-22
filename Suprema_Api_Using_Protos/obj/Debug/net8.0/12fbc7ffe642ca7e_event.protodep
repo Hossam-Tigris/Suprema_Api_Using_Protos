@@ -1,0 +1,4 @@
+obj\Debug\net8.0\Protos/Event.cs \
+obj\Debug\net8.0\Protos/EventGrpc.cs: Protos/err.proto\
+ Protos/tna.proto\
+ Protos/event.proto

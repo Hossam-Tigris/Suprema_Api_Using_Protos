@@ -1,0 +1,7 @@
+obj\Debug\net8.0\Protos/User.cs \
+obj\Debug\net8.0\Protos/UserGrpc.cs: Protos/err.proto\
+ Protos/card.proto\
+ Protos/finger.proto\
+ Protos/face.proto\
+ Protos/tna.proto\
+ Protos/user.proto

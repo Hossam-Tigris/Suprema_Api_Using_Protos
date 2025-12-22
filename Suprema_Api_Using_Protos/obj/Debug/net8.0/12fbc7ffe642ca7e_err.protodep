@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Err.cs \
+obj\Debug\net8.0\Protos/ErrGrpc.cs: Protos/err.proto
