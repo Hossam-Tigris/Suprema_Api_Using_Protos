@@ -1,4 +1,6 @@
 
+using Suprema_Api_Using_Protos.Helper;
+
 namespace Suprema_Api_Using_Protos
 {
     public class Program
@@ -22,8 +24,8 @@ namespace Suprema_Api_Using_Protos
 
             app.UseHttpsRedirection();
 
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseAuthorization();
-
 
             app.MapControllers();
 

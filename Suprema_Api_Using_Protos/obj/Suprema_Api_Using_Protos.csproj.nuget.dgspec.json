@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj": {}
+    "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj": {}
   },
   "projects": {
-    "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj": {
+    "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj",
+        "projectUniqueName": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj",
         "projectName": "Suprema_Api_Using_Protos",
-        "projectPath": "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj",
+        "projectPath": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj",
         "packagesPath": "C:\\Users\\Hossam\\.nuget\\packages\\",
-        "outputPath": "D:\\Suprema.API\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\obj\\",
+        "outputPath": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
