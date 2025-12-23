@@ -44,3 +44,4 @@ namespace Suprema_Api_Using_Protos.Services
             return res.Config;
         }
     }
+}
