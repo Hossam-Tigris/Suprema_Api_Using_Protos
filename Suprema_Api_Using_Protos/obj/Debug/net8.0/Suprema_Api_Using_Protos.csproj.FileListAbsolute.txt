@@ -39,3 +39,4 @@ D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\refint\Sup
 D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\Suprema_Api_Using_Protos.pdb
 D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\Suprema_Api_Using_Protos.genruntimeconfig.cache
 D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\ref\Suprema_Api_Using_Protos.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Device_Getway\config.json

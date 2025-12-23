@@ -1,1 +1,481 @@
-[]
+[
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.AuthController",
+    "Method": "GetConfig",
+    "RelativePath": "api/Auth/{deviceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.AuthController",
+    "Method": "SetAuth",
+    "RelativePath": "api/Auth/set",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "scheduleId",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "GetDevices",
+    "RelativePath": "api/Device",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "Disconnect",
+    "RelativePath": "api/Device/{deviceId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "GetDeviceConfig",
+    "RelativePath": "api/Device/{deviceId}/config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "SetDeviceConfig",
+    "RelativePath": "api/Device/{deviceId}/config",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.DisplayConfigRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "FactoryReset",
+    "RelativePath": "api/Device/{deviceId}/factory-reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "UpdateNotice",
+    "RelativePath": "api/Device/{deviceId}/notice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "RebootDevice",
+    "RelativePath": "api/Device/{deviceId}/reboot",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "Reconnect",
+    "RelativePath": "api/Device/{deviceId}/reconnect",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "UpdateSound",
+    "RelativePath": "api/Device/{deviceId}/sound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.SoundRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "GetDeviceTime",
+    "RelativePath": "api/Device/{deviceId}/time",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "SetDeviceTime",
+    "RelativePath": "api/Device/{deviceId}/time",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.SetTimeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "SetVolume",
+    "RelativePath": "api/Device/{deviceId}/volume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "volume",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "Connect",
+    "RelativePath": "api/Device/connect",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.ConnectDeviceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthController",
+    "Method": "Health",
+    "RelativePath": "api/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.ScheduleController",
+    "Method": "GetSchedules",
+    "RelativePath": "api/Schedule/{deviceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.ScheduleController",
+    "Method": "AddWeekly",
+    "RelativePath": "api/Schedule/weekly",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WeeklyScheduleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "ScanCard",
+    "RelativePath": "api/User/{deviceId}/scan-card",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/{deviceId}/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.UserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/{deviceId}/user",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.UserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{deviceId}/user/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "AddUserCard",
+    "RelativePath": "api/User/{deviceId}/user/{userId}/card",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.CardRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "RemoveAllUserCards",
+    "RelativePath": "api/User/{deviceId}/user/{userId}/cards",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "AddUserFace",
+    "RelativePath": "api/User/{deviceId}/user/{userId}/face",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
+    "Method": "AddUserFinger",
+    "RelativePath": "api/User/{deviceId}/user/{userId}/finger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

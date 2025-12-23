@@ -1,9 +1,12 @@
 
 using Google.Protobuf.Reflection;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Suprema_Api_Using_Protos.DTOs;
 using Suprema_Api_Using_Protos.Helper;
 using Suprema_Api_Using_Protos.Services;
+using System.Net;
+using System.Net.Sockets;
 
 namespace Suprema_Api_Using_Protos
 {
@@ -13,8 +16,30 @@ namespace Suprema_Api_Using_Protos
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            string Ip = Dns.GetHostEntry(Dns.GetHostName())
+                                .AddressList
+                                .First(x => x.AddressFamily == AddressFamily.InterNetwork)
+                                .ToString();
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
+            {
+                options.InvalidModelStateResponseFactory = context =>
+                {
+                    var errors = context.ModelState
+                        .Values
+                        .SelectMany(v => v.Errors)
+                        .Select(e => e.ErrorMessage)
+                        .ToList();
+
+                    var response = new ApiResponse<List<string>>(
+                        data: errors,
+                        success: false,
+                        message: "Validation error"
+                    );
+
+                    return new BadRequestObjectResult(response);
+                };
+            }); ;
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -30,12 +55,12 @@ namespace Suprema_Api_Using_Protos
 
                 var manager = new DeviceManager(
                     gatewayOptions.CaPath,
-                    gatewayOptions.Address,
+                    Ip,
                     gatewayOptions.Port
                 );
 
-                manager.ConnectDevicesAsync(
-                deviceOptions.Select(d => (d.Ip, d.Port, d.UseSSL)).ToList()).GetAwaiter().GetResult();
+                //manager.ConnectDevicesAsync(
+                //deviceOptions.Select(d => (d.Ip, d.Port, d.UseSSL)).ToList()).GetAwaiter().GetResult();
 
                 return manager;
             });

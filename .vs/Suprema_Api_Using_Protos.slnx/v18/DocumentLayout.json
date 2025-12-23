@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "D:\\Suprema_Api_Using_Protos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\settimerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\settimerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\schedulerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\schedulerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\gatewayoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\gatewayoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\displayconfigrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\displayconfigrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\deviceoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\deviceoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\connectdevicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\connectdevicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\cardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\cardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\dtos\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\dtos\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\services\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\services\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,73 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SetTimeRequest.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\SetTimeRequest.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\SetTimeRequest.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\SetTimeRequest.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\SetTimeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:46.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScheduleRequest.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\ScheduleRequest.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\ScheduleRequest.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\ScheduleRequest.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\ScheduleRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:43.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GatewayOptions.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\GatewayOptions.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\GatewayOptions.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\GatewayOptions.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\GatewayOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:41.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DisplayConfigRequest.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\DisplayConfigRequest.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\DisplayConfigRequest.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\DisplayConfigRequest.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\DisplayConfigRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:37.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeviceOptions.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\DeviceOptions.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\DeviceOptions.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\DeviceOptions.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\DeviceOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:33.99Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -131,54 +54,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T12:03:40.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAowAwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:23:59.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\appsettings.json",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\appsettings.json",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\appsettings.json",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-23T11:18:16.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T11:11:10.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ConnectDeviceRequest.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\ConnectDeviceRequest.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\ConnectDeviceRequest.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\ConnectDeviceRequest.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\ConnectDeviceRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Title": "DeviceManager.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:29.693Z",
+              "WhenOpened": "2025-12-23T11:09:39.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CardRequest.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\CardRequest.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\CardRequest.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\CardRequest.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\CardRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:22.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthRequest.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\AuthRequest.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\DTOs\\AuthRequest.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\DTOs\\AuthRequest.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\DTOs\\AuthRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:59:21.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
               "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Program.cs",
               "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
               "RelativeToolTip": "Suprema_Api_Using_Protos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:58:28.276Z",
+              "WhenOpened": "2025-12-23T11:09:32.473Z",
               "EditorCaption": ""
             }
           ]

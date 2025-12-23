@@ -21,41 +21,47 @@ namespace Suprema_Api_Using_Protos.Helper
             }
             catch (KeyNotFoundException ex)
             {
-                await WriteError(context, HttpStatusCode.NotFound, ex.Message);
+                await WriteError(context, ex.Message, HttpStatusCode.NotFound);
             }
-            catch (RpcException ex)
+            catch (RpcException)
             {
-                await WriteError(context, HttpStatusCode.BadGateway,
-                    "Device/Gateway error: " + ex.Status.Detail);
+                await WriteError(
+                    context,
+                    "Gateway is not reachable",
+                    HttpStatusCode.BadGateway);
             }
-            catch (TimeoutException ex)
+            catch (TimeoutException)
             {
-                await WriteError(context, HttpStatusCode.RequestTimeout, ex.Message);
+                await WriteError(
+                    context,
+                    "Operation timeout",
+                    HttpStatusCode.RequestTimeout);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                await WriteError(context, HttpStatusCode.InternalServerError,
-                    "Unexpected error", ex);
+                await WriteError(
+                    context,
+                    "Unexpected server error",
+                    HttpStatusCode.InternalServerError);
             }
         }
 
         private static async Task WriteError(
             HttpContext context,
-            HttpStatusCode code,
             string message,
-            Exception? ex = null)
+            HttpStatusCode statusCode)
         {
-            context.Response.StatusCode = (int)code;
+            context.Response.StatusCode = (int)statusCode;
             context.Response.ContentType = "application/json";
 
-            var result = new
-            {
-                success = false,
-                message = message,
-                data = Array.Empty<object>(),
-            };
+            var response = new ApiResponse<object>(
+                data: Array.Empty<object>(),
+                success: false,
+                message: message
+            );
 
-            await context.Response.WriteAsync(JsonSerializer.Serialize(result));
+            await context.Response.WriteAsync(
+                JsonSerializer.Serialize(response));
         }
     }
 }

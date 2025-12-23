@@ -5,6 +5,7 @@
         private readonly GatewayClient _gateway;
         private readonly ConnectSvc _connectSvc;
         private readonly object _lock = new();
+        public bool GatewayConnected { get; private set; }
 
         public List<DeviceSession> Devices { get; } = new();
 
@@ -12,6 +13,7 @@
         {
             _gateway = new GatewayClient();
             _gateway.Connect(gatewayCa, gatewayAddr, gatewayPort);
+            GatewayConnected = true;
 
             _connectSvc = new ConnectSvc(_gateway.Channel);
         }
