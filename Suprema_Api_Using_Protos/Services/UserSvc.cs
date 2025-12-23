@@ -352,8 +352,8 @@ namespace Suprema_Api_Using_Protos.Services
 
 
 
-        //public async Task<bool> SyncUseridToDevice(DeviceSession source, DeviceSession target, uint userID)
-        //{
+        // public async Task<bool> SyncUseridToDevice(DeviceSession source, DeviceSession target, uint userID)
+        // {
         //    var getResp = await source.Services
         //        .CreateUserSvc()
         //        .GetAsync(userID);
