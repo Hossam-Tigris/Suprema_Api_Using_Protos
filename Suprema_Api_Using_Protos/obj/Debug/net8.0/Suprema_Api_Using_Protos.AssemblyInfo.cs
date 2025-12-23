@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Suprema_Api_Using_Protos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87389f69376d68d4a0c66b2b249b311eda929651")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+494890545a5bf471ba01b184f7ca601cf309574f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Suprema_Api_Using_Protos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Suprema_Api_Using_Protos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
