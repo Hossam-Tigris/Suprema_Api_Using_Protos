@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Suprema_Api_Using_Protos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\services\\devicesvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\services\\devicesvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\services\\usersvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\services\\usersvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\interfaces\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\interfaces\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\services\\connectsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\services\\connectsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,6 +20,19 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\InterFaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\InterFaces\\IUserService.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\InterFaces\\IUserService.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\InterFaces\\IUserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vw8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T07:47:44.899Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -42,41 +51,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IDeviceService.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\InterFaces\\IDeviceService.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\InterFaces\\IDeviceService.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\InterFaces\\IDeviceService.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\InterFaces\\IDeviceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T13:33:32.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeviceSvc.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\DeviceSvc.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Services\\DeviceSvc.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\DeviceSvc.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\Services\\DeviceSvc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Title": "UserSvc.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\UserSvc.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Services\\UserSvc.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\UserSvc.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Services\\UserSvc.cs",
+              "ViewState": "AgIAAFIBAAAAAAAAAAAqwFoBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T13:33:12.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConnectSvc.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\ConnectSvc.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Services\\ConnectSvc.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\ConnectSvc.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\Services\\ConnectSvc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T12:18:37.865Z",
+              "WhenOpened": "2025-12-23T07:45:56.292Z",
               "EditorCaption": ""
             }
           ]
