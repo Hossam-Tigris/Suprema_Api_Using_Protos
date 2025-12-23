@@ -88,7 +88,7 @@
         }
       }
     },
-    "/api/Device/{deviceId}/Log": {
+    "/api/Device/{deviceId}/log": {
       "get": {
         "tags": [
           "Device"
@@ -1135,6 +1135,26 @@
         "type": "integer",
         "format": "int32"
       },
+      "BackgroundTheme": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "BackgroundType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "CardRequest": {
         "type": "object",
         "properties": {
@@ -1163,16 +1183,64 @@
         },
         "additionalProperties": false
       },
+      "DateFormat": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "DisplayConfigRequest": {
         "type": "object",
         "properties": {
+          "language": {
+            "$ref": "#/components/schemas/LanguageType"
+          },
+          "background": {
+            "$ref": "#/components/schemas/BackgroundType"
+          },
+          "theme": {
+            "$ref": "#/components/schemas/BackgroundTheme"
+          },
           "volume": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "language": {
-            "$ref": "#/components/schemas/LanguageType"
+          "useVoice": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "dateFormat": {
+            "$ref": "#/components/schemas/DateFormat"
+          },
+          "timeFormat": {
+            "$ref": "#/components/schemas/TimeFormat"
+          },
+          "showDateTime": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "menuTimeout": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "msgTimeout": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "backlightTimeout": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "useUserPhrase": {
+            "type": "boolean",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1223,6 +1291,14 @@
           }
         },
         "additionalProperties": false
+      },
+      "TimeFormat": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "TimePeriodDto": {
         "type": "object",

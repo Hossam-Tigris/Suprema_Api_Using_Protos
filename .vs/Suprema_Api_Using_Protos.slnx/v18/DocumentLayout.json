@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +38,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
+              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Program.cs",
+              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
+              "RelativeToolTip": "Suprema_Api_Using_Protos\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:18:52.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DeviceController.cs",
               "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
               "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
               "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
               "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wBwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T14:27:48.63Z",
+              "WhenOpened": "2025-12-23T15:06:40.213Z",
               "EditorCaption": ""
             }
           ]

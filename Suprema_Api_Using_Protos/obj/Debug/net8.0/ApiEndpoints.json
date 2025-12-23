@@ -139,7 +139,7 @@
   {
     "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
     "Method": "GetDeviceLog",
-    "RelativePath": "api/Device/{deviceId}/Log",
+    "RelativePath": "api/Device/{deviceId}/log",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

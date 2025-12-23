@@ -1,4 +1,5 @@
-﻿using Grpc.Core;
+﻿using AutoMapper;
+using Grpc.Core;
 using Gsdk.Display;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -41,16 +42,26 @@ namespace Suprema_Api_Using_Protos.Controllers
                 ));
             }
         }
-        [HttpGet("{deviceId}/Log")]
+        [HttpGet("{deviceId}/log")]
         public async Task<IActionResult> GetDeviceLog(uint deviceId)
         {
             var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
+
             try
             {
-                var DeviceLog = await device.Services.CreateEventLogSvc().GetLogsAsync(deviceId);
+                var response = await device.Services
+                                          .CreateEventLogSvc()
+                                          .GetLogsAsync(deviceId);
+
+
+                //var logs = _mapper.Map<List<EventLogDto>>(response.Events);
 
                 return Ok(new ApiResponse<object>(
-                    data: new { deviceId, DeviceLog },
+                    data: new
+                    {
+                        deviceId,
+                        response
+                    },
                     message: "Device log retrieved",
                     success: true
                 ));

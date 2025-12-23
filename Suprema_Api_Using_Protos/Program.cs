@@ -1,6 +1,7 @@
 
 using Google.Protobuf.Reflection;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Suprema_Api_Using_Protos.DTOs;
 using Suprema_Api_Using_Protos.Helper;
@@ -42,6 +43,7 @@ namespace Suprema_Api_Using_Protos
             }); ;
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
 
             builder.Services.Configure<GatewayOptions>(
               builder.Configuration.GetSection("Gateway"));

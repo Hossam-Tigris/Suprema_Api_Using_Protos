@@ -40,3 +40,13 @@ D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\Suprema_Ap
 D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\Suprema_Api_Using_Protos.genruntimeconfig.cache
 D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\obj\Debug\net8.0\ref\Suprema_Api_Using_Protos.dll
 D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Device_Getway\config.json
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\AutoMapper.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Suprema_Api_Using_Protos\Suprema_Api_Using_Protos\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
