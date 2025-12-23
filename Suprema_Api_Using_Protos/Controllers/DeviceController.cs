@@ -17,7 +17,29 @@ namespace Suprema_Api_Using_Protos.Controllers
         {
             _manager = manager;
         }
+        [HttpGet("{deviceId}/Info")]
+        public async Task<IActionResult> GetDeviceInfo(uint deviceId)
+        {
+            var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
+            try
+            {
+                var Data = await device.Services.CreateDeviceSvc().GetDeviceInfoAsync();
 
+                return Ok(new ApiResponse<object>(
+                    data: new { deviceId, Data },
+                    message: "Device Info retrieved",
+                    success: true
+                ));
+            }
+            catch (RpcException ex)
+            {
+                return StatusCode(502, new ApiResponse<object>(
+                    data: null,
+                    success: false,
+                    message: ex.Status.Detail
+                ));
+            }
+        }
 
         [HttpGet("{deviceId}/time")]
         public async Task<IActionResult> GetDeviceTime(uint deviceId)
@@ -289,7 +311,7 @@ namespace Suprema_Api_Using_Protos.Controllers
             }
         }
 
-        [HttpDelete("{deviceId}")]
+        [HttpDelete("{deviceId}/disconnect")]
         public IActionResult Disconnect(uint deviceId)
         {
             try
