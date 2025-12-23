@@ -20,9 +20,14 @@
     <Folder Include="Controllers\" />
     <Folder Include="Assets\" />
     <Folder Include="DTOs\" />
-    <Folder Include="NewFolder\" />
   </ItemGroup>
 	<ItemGroup>
 		<Protobuf Include="Protos\**\*.proto" GrpcServices="Client" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Remove="NewFolder\**" />
+	  <Content Remove="NewFolder\**" />
+	  <EmbeddedResource Remove="NewFolder\**" />
+	  <None Remove="NewFolder\**" />
 	</ItemGroup>
 </Project>
