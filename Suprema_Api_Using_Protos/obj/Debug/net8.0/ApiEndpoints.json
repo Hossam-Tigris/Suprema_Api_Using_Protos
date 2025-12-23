@@ -53,22 +53,6 @@
   },
   {
     "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
-    "Method": "Disconnect",
-    "RelativePath": "api/Device/{deviceId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "deviceId",
-        "Type": "System.UInt32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
     "Method": "GetDeviceConfig",
     "RelativePath": "api/Device/{deviceId}/config",
     "HttpMethod": "GET",
@@ -106,9 +90,57 @@
   },
   {
     "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "Disconnect",
+    "RelativePath": "api/Device/{deviceId}/disconnect",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
     "Method": "FactoryReset",
     "RelativePath": "api/Device/{deviceId}/factory-reset",
     "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "GetDeviceInfo",
+    "RelativePath": "api/Device/{deviceId}/Info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.DeviceController",
+    "Method": "GetDeviceLog",
+    "RelativePath": "api/Device/{deviceId}/Log",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -272,6 +304,226 @@
     "ContainingType": "HealthController",
     "Method": "Health",
     "RelativePath": "api/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetAuthModes",
+    "RelativePath": "api/LookUps/auth-modes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetBackgroundThemes",
+    "RelativePath": "api/LookUps/background-themes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetBackgroundTypes",
+    "RelativePath": "api/LookUps/background-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetBuzzerTones",
+    "RelativePath": "api/LookUps/buzzer-tones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetCardTypes",
+    "RelativePath": "api/LookUps/card-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetDateFormats",
+    "RelativePath": "api/LookUps/date-formats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFaceDetectSensitivities",
+    "RelativePath": "api/LookUps/face-detect-sensitivities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFaceDetectionLevels",
+    "RelativePath": "api/LookUps/face-detection-levels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFaceEnrollThresholds",
+    "RelativePath": "api/LookUps/face-enroll-thresholds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFaceLFDLevels",
+    "RelativePath": "api/LookUps/face-lfd-levels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFaceLightConditions",
+    "RelativePath": "api/LookUps/face-light-conditions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFacePreviewOptions",
+    "RelativePath": "api/LookUps/face-preview-options",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetFaceSecurityLevels",
+    "RelativePath": "api/LookUps/face-security-levels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetGlobalAPBActions",
+    "RelativePath": "api/LookUps/global-apb-actions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetHolidayRecurrences",
+    "RelativePath": "api/LookUps/holiday-recurrences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetLanguages",
+    "RelativePath": "api/LookUps/languages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetLEDColors",
+    "RelativePath": "api/LookUps/led-colors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetOperatorLevels",
+    "RelativePath": "api/LookUps/operator-levels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetSoundIndices",
+    "RelativePath": "api/LookUps/sound-indices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetSwitchTypes",
+    "RelativePath": "api/LookUps/switch-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetTemplateFormats",
+    "RelativePath": "api/LookUps/template-formats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.LookUpsController",
+    "Method": "GetTimeFormats",
+    "RelativePath": "api/LookUps/time-formats",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

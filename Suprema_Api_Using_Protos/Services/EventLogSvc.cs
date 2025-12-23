@@ -19,7 +19,7 @@ namespace Suprema_Api_Using_Protos.Services
         }
 
 
-        public async Task GetLogsAsync(uint deviceID, uint startEventID = 0, uint maxNumOfLog = 50, string filePath = "DeviceLogs.txt")
+        public async Task<GetLogResponse> GetLogsAsync(uint deviceID, uint startEventID = 0, uint maxNumOfLog = 50, string filePath = "DeviceLogs.txt")
         {
             var request = new GetLogRequest
             {
@@ -47,10 +47,12 @@ namespace Suprema_Api_Using_Protos.Services
                 }
 
                 Console.WriteLine($"Logs also saved to file: {filePath}");
+                return response;
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error fetching logs: {ex.Message}");
+                return null;
             }
         }
 

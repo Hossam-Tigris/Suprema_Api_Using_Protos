@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "D:\\Suprema_Api_Using_Protos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|d:\\suprema_api_using_protos\\suprema_api_using_protos\\services\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB025D82-943D-12C1-66E8-CA98B18D66F6}|Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos.csproj|solutionrelative:suprema_api_using_protos\\services\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,79 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\UserController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T12:03:40.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "DeviceController.cs",
               "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
               "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
               "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
               "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\DeviceController.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAowAwBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T11:23:59.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\appsettings.json",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\appsettings.json",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\appsettings.json",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-23T11:18:16.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HealthController.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\Controllers\\HealthController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T11:11:10.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeviceManager.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\Services\\DeviceManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T11:09:39.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
-              "RelativeDocumentMoniker": "Suprema_Api_Using_Protos\\Program.cs",
-              "ToolTip": "D:\\Suprema_Api_Using_Protos\\Suprema_Api_Using_Protos\\Program.cs",
-              "RelativeToolTip": "Suprema_Api_Using_Protos\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowD0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T11:09:32.473Z",
+              "WhenOpened": "2025-12-23T12:32:38.683Z",
               "EditorCaption": ""
             }
           ]

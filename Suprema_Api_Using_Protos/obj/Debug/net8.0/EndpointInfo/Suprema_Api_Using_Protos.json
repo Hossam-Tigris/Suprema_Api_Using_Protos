@@ -65,6 +65,52 @@
         }
       }
     },
+    "/api/Device/{deviceId}/Info": {
+      "get": {
+        "tags": [
+          "Device"
+        ],
+        "parameters": [
+          {
+            "name": "deviceId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Device/{deviceId}/Log": {
+      "get": {
+        "tags": [
+          "Device"
+        ],
+        "parameters": [
+          {
+            "name": "deviceId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Device/{deviceId}/time": {
       "get": {
         "tags": [
@@ -409,7 +455,7 @@
         }
       }
     },
-    "/api/Device/{deviceId}": {
+    "/api/Device/{deviceId}/disconnect": {
       "delete": {
         "tags": [
           "Device"
@@ -459,6 +505,270 @@
       "get": {
         "tags": [
           "Health"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/languages": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/background-types": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/background-themes": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/date-formats": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/time-formats": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/sound-indices": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/auth-modes": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/operator-levels": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-detection-levels": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/global-apb-actions": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/card-types": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/switch-types": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/led-colors": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/buzzer-tones": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-security-levels": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-enroll-thresholds": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-light-conditions": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-detect-sensitivities": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-lfd-levels": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/face-preview-options": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/template-formats": {
+      "get": {
+        "tags": [
+          "LookUps"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LookUps/holiday-recurrences": {
+      "get": {
+        "tags": [
+          "LookUps"
         ],
         "responses": {
           "200": {

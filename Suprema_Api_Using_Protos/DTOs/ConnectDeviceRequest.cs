@@ -4,6 +4,6 @@
     {
         public string Ip { get; set; }
         public int Port { get; set; }
-        public bool UseSSL { get; set; }
+        public bool UseSSL { get; set; } = false;
     }
 }

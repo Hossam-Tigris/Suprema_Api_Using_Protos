@@ -1,4 +1,5 @@
 ﻿using Grpc.Core;
+using Gsdk.Display;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Suprema_Api_Using_Protos.DTOs;
@@ -23,11 +24,34 @@ namespace Suprema_Api_Using_Protos.Controllers
             var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
             try
             {
-                var Data = await device.Services.CreateDeviceSvc().GetDeviceInfoAsync();
+                var DeviceInformation = await device.Services.CreateDeviceSvc().GetDeviceInfoAsync();
 
                 return Ok(new ApiResponse<object>(
-                    data: new { deviceId, Data },
+                    data: new { deviceId, DeviceInformation },
                     message: "Device Info retrieved",
+                    success: true
+                ));
+            }
+            catch (RpcException ex)
+            {
+                return StatusCode(502, new ApiResponse<object>(
+                    data: null,
+                    success: false,
+                    message: ex.Status.Detail
+                ));
+            }
+        }
+        [HttpGet("{deviceId}/Log")]
+        public async Task<IActionResult> GetDeviceLog(uint deviceId)
+        {
+            var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
+            try
+            {
+                var DeviceLog = await device.Services.CreateEventLogSvc().GetLogsAsync(deviceId);
+
+                return Ok(new ApiResponse<object>(
+                    data: new { deviceId, DeviceLog },
+                    message: "Device log retrieved",
                     success: true
                 ));
             }
@@ -114,16 +138,73 @@ namespace Suprema_Api_Using_Protos.Controllers
             }
         }
 
+        //[HttpPost("{deviceId}/config")]
+        //public async Task<IActionResult> SetDeviceConfig(uint deviceId, [FromBody] DisplayConfigRequest dto)
+        //{
+        //    var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
+
+        //    try
+        //    {
+        //        var config = await device.Services.CreateDisplaySvc().GetConfigAsync(deviceId);
+
+        //        if (dto.Volume.HasValue) config.Volume = dto.Volume.Value;
+        //        if (dto.Language.HasValue) config.Language = dto.Language.Value;
+        //        if (dto.Background.HasValue) config.Background = dto.Background.Value;
+        //        if (dto.Theme.HasValue) config.Theme = dto.Theme.Value;
+
+        //        if (dto.UseVoice.HasValue) config.UseVoice = dto.UseVoice.Value;
+        //        if (dto.DateFormat.HasValue) config.DateFormat = dto.DateFormat.Value;
+        //        if (dto.TimeFormat.HasValue) config.TimeFormat = dto.TimeFormat.Value;
+        //        if (dto.ShowDateTime.HasValue) config.ShowDateTime = dto.ShowDateTime.Value;
+
+        //        if (dto.MenuTimeout.HasValue) config.MenuTimeout = dto.MenuTimeout.Value;
+        //        if (dto.MsgTimeout.HasValue) config.MsgTimeout = dto.MsgTimeout.Value;
+        //        if (dto.BacklightTimeout.HasValue) config.BacklightTimeout = dto.BacklightTimeout.Value;
+
+        //        if (dto.UseUserPhrase.HasValue) config.UseUserPhrase = dto.UseUserPhrase.Value;
+
+        //        await device.Services.CreateDisplaySvc().SetConfigAsync(deviceId, config);
+
+        //        return Ok(new ApiResponse<object>(
+        //            data: null,
+        //            message: "Config updated",
+        //            success: true
+        //        ));
+        //    }
+        //    catch (RpcException ex)
+        //    {
+        //        return StatusCode(502, new ApiResponse<object>(
+        //            data: null,
+        //            success: false,
+        //            message: ex.Status.Detail
+        //        ));
+        //    }
+        //}
+
         [HttpPost("{deviceId}/config")]
         public async Task<IActionResult> SetDeviceConfig(uint deviceId, [FromBody] DisplayConfigRequest dto)
         {
             var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
+
             try
             {
                 var config = await device.Services.CreateDisplaySvc().GetConfigAsync(deviceId);
 
-                if (dto.Volume.HasValue) config.Volume = dto.Volume.Value;
-                if (dto.Language.HasValue) config.Language = dto.Language.Value;
+                var dtoProps = typeof(DisplayConfigRequest).GetProperties();
+                var configProps = typeof(DisplayConfig).GetProperties();
+
+                foreach (var prop in dtoProps)
+                {
+                    var value = prop.GetValue(dto);
+                    if (value != null)
+                    {
+                        var configProp = configProps.FirstOrDefault(p => p.Name == prop.Name);
+                        if (configProp != null)
+                        {
+                            configProp.SetValue(config, value);
+                        }
+                    }
+                }
 
                 await device.Services.CreateDisplaySvc().SetConfigAsync(deviceId, config);
 
@@ -131,7 +212,6 @@ namespace Suprema_Api_Using_Protos.Controllers
                     data: null,
                     message: "Config updated",
                     success: true
-
                 ));
             }
             catch (RpcException ex)
