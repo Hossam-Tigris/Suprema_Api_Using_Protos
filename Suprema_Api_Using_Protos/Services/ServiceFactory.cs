@@ -37,6 +37,7 @@ namespace Suprema_Api_Using_Protos.Services
 
         public DisplaySvc CreateDisplaySvc()
             => new DisplaySvc(_channel, _deviceId);
+
         public ScheduleSvc CreateScheduleSvc()
         => new ScheduleSvc(_channel);
 
