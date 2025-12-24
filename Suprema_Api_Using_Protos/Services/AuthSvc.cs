@@ -1,9 +1,10 @@
 ﻿using Grpc.Net.Client;
 using Gsdk.Auth;
+using Suprema_Api_Using_Protos.InterFaces;
 
 namespace Suprema_Api_Using_Protos.Services
 {
-    public class AuthSvc
+    public class AuthSvc:IAuthService
     {
         private readonly Auth.AuthClient _client;
 

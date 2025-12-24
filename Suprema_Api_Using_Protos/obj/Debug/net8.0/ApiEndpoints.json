@@ -563,6 +563,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.TnaController",
+    "Method": "GetConfig",
+    "RelativePath": "api/tna/{deviceId}/config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.TnaController",
+    "Method": "SetConfig",
+    "RelativePath": "api/tna/{deviceId}/config",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Suprema_Api_Using_Protos.DTOs.TnaConfigRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Suprema_Api_Using_Protos.Controllers.TnaController",
+    "Method": "GetLogs",
+    "RelativePath": "api/tna/{deviceId}/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "startEventId",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "max",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Suprema_Api_Using_Protos.Controllers.UserController",
     "Method": "ScanCard",
     "RelativePath": "api/User/{deviceId}/scan-card",

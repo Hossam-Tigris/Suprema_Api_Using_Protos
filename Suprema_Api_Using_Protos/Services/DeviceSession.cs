@@ -1,4 +1,6 @@
 ﻿using Grpc.Net.Client;
+using Gsdk.Device;
+using Suprema_Api_Using_Protos.Services;
 
 namespace Suprema_Api_Using_Protos.Services
 {
@@ -12,10 +14,11 @@ namespace Suprema_Api_Using_Protos.Services
         {
             DeviceID = deviceID;
             IP = ip;
-            Services = new ServiceFactory(channel, deviceID);
-        }
+            Services = new ServiceFactory( channel, DeviceID);
+       }
 
 
 
     }
 }
+

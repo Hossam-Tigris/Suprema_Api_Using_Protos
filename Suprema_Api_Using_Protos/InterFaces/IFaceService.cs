@@ -4,7 +4,7 @@ namespace Suprema_Api_Using_Protos.InterFaces
 {
     public interface IFaceService
     {
-        Task<FaceData> ScanFaceAsync(uint deviceID, FaceEnrollThreshold faceEnroll);
+        Task<FaceData> ScanFaceAsync(uint deviceID, FaceEnrollThreshold faceEnroll= FaceEnrollThreshold.Bs2FaceEnrollThresholdDefault);
         Task<FaceConfig> GetConfigAsync(uint deviceID);
         Task<bool> SetConfigAsync(uint deviceID, FaceConfig config);
     }

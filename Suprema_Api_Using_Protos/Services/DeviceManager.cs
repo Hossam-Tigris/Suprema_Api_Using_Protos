@@ -42,6 +42,7 @@
                         deviceId,
                         ip,
                         _gateway.Channel
+                        
                     ));
                 }
 

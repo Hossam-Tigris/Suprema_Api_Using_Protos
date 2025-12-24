@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Suprema_Api_Using_Protos.DTOs;
 using Suprema_Api_Using_Protos.Helper;
+using Suprema_Api_Using_Protos.InterFaces;
 using Suprema_Api_Using_Protos.Services;
 using System.Net;
 using System.Net.Sockets;
@@ -59,6 +60,7 @@ namespace Suprema_Api_Using_Protos
                     gatewayOptions.CaPath,
                     Ip,
                     gatewayOptions.Port
+                    
                 );
 
                 //manager.ConnectDevicesAsync(
@@ -66,6 +68,9 @@ namespace Suprema_Api_Using_Protos
 
                 return manager;
             });
+
+
+
 
 
             var app = builder.Build();

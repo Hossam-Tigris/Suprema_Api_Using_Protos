@@ -13,7 +13,7 @@ namespace Suprema_Api_Using_Protos.InterFaces
         Task<bool> RemoveAllCardsFromUserAsync(uint deviceID, uint userID);
 
         Task<bool> AddFaceToUserAsync(uint deviceID, uint userID, FaceData faceData);
-        Task<bool> ScanVerifyAndAssignFingerAsync(uint deviceID, uint userID, FingerSvc fingerService);
+        Task<bool> ScanVerifyAndAssignFingerAsync(uint deviceID, uint userID, IFingerService fingerService);
         Task<bool> SetUserPinAsync(uint deviceID, uint userID, string pin);
     }
 

@@ -207,7 +207,7 @@ namespace Suprema_Api_Using_Protos.Services
         }
 
 
-        public async Task<bool> ScanVerifyAndAssignFingerAsync(uint deviceID, uint userID, FingerSvc fingerSvc)
+        public async Task<bool> ScanVerifyAndAssignFingerAsync(uint deviceID, uint userID, IFingerService fingerSvc)
         {
             try
             {
