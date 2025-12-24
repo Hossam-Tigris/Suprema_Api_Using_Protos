@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Grpc.Core;
 using Gsdk.Display;
+using Gsdk.Tna;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Suprema_Api_Using_Protos.DTOs;
@@ -42,6 +43,8 @@ namespace Suprema_Api_Using_Protos.Controllers
                 ));
             }
         }
+
+
         [HttpGet("{deviceId}/log")]
         public async Task<IActionResult> GetDeviceLog(uint deviceId)
         {
@@ -49,32 +52,67 @@ namespace Suprema_Api_Using_Protos.Controllers
 
             try
             {
-                var response = await device.Services
-                                          .CreateEventLogSvc()
-                                          .GetLogsAsync(deviceId);
+                var logResponse = await device.Services
+                                              .CreateEventLogSvc()
+                                              .GetLogsAsync(deviceId);
 
+                if (logResponse == null || logResponse.Events.Count == 0)
+                {
+                    return Ok(new ApiResponse<object>(
+                        Array.Empty<object>(),
+                        true,
+                        "No logs found"
+                    ));
+                }
 
-                //var logs = _mapper.Map<List<EventLogDto>>(response.Events);
+                var tnaConfigResponse = await device.Services
+                                                    .CreateTnaSvc()
+                                                    .GetConfigAsync(deviceId);
+
+                var labels = tnaConfigResponse.Labels;
+
+                var logs = logResponse.Events.Select(log => new
+                {
+                    id = log.ID,
+                    deviceId = log.DeviceID,
+                    userId = log.UserID,
+
+                    eventInfo = EventLogHelper.GetEventInfo(log.EventCode),
+
+                    time = DateTimeOffset
+                        .FromUnixTimeSeconds(log.Timestamp)
+                        .LocalDateTime,
+
+                    tna = new
+                    {
+                        key = log.TNAKey.ToString(),
+                        value = (int)log.TNAKey,
+                        label = TnaHelper.GetLabel(log.TNAKey, labels)
+                    }
+                });
 
                 return Ok(new ApiResponse<object>(
-                    data: new
+                    new
                     {
                         deviceId,
-                        response
+                        total = logs.Count(),
+                        logs
                     },
-                    message: "Device log retrieved",
-                    success: true
+                    true,
+                    "Device logs retrieved successfully"
                 ));
             }
             catch (RpcException ex)
             {
                 return StatusCode(502, new ApiResponse<object>(
-                    data: null,
-                    success: false,
-                    message: ex.Status.Detail
+                    Array.Empty<object>(),
+                    false,
+                    $"Device/Gateway error: {ex.Status.Detail}"
                 ));
             }
         }
+
+
 
         [HttpGet("{deviceId}/time")]
         public async Task<IActionResult> GetDeviceTime(uint deviceId)

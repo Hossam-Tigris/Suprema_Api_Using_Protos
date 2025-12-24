@@ -1,27 +1,42 @@
-﻿public static class EventCodeMapper
+﻿using YourProject.Enums;
+
+public static class EventLogHelper
 {
-    private static readonly Dictionary<uint, string> _events = new()
+    public static object GetEventInfo(uint eventCode)
     {
-        { 0x1100, "Access Success" },
-        { 0x1101, "Access Fail" },
+        var code = (ushort)eventCode;
 
-        { 0x1200, "Authentication Success" },
-        { 0x1201, "Authentication Fail" },
+        if (!Enum.IsDefined(typeof(Bs2EventCode), code))
+        {
+            return new
+            {
+                code = eventCode,
+                name = "UnknownEvent",
+                category = "Unknown"
+            };
+        }
 
-        { 0x2100, "Door Opened" },
-        { 0x2101, "Door Closed" },
+        var enumValue = (Bs2EventCode)code;
 
-        { 0x3100, "Alarm Triggered" },
+        return new
+        {
+            code = eventCode,
+            name = enumValue.ToString(),
+            category = GetCategory(enumValue)
+        };
+    }
 
-        { 0x4100, "System Restart" }
-    };
-
-    public static string GetName(uint eventCode)
+    private static string GetCategory(Bs2EventCode code)
     {
-        uint mainCode = eventCode & 0xFF00;
+        var value = (ushort)code;
 
-        return _events.TryGetValue(mainCode, out var name)
-            ? name
-            : $"Unknown Event (0x{eventCode:X})";
+        if (value >= 0x1000 && value < 0x2000) return "Auth";
+        if (value >= 0x2000 && value < 0x3000) return "User";
+        if (value >= 0x3000 && value < 0x5000) return "Device";
+        if (value >= 0x5000 && value < 0x6000) return "Door";
+        if (value >= 0x6000 && value < 0x7000) return "Zone";
+        if (value >= 0x7000 && value < 0x8000) return "Lift";
+
+        return "Other";
     }
 }

@@ -35,9 +35,7 @@ namespace Suprema_Api_Using_Protos.Controllers
         }
 
         [HttpPost("{deviceId}/config")]
-        public async Task<IActionResult> SetConfig(
-            uint deviceId,
-            [FromBody] TnaConfigRequest dto)
+        public async Task<IActionResult> SetConfig(uint deviceId,[FromBody] TnaConfigRequest dto)
         {
             var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
 
@@ -63,16 +61,12 @@ namespace Suprema_Api_Using_Protos.Controllers
         }
 
         [HttpGet("{deviceId}/logs")]
-        public async Task<IActionResult> GetLogs(
-            uint deviceId,
-            [FromQuery] uint startEventId = 0,
-            [FromQuery] uint max = 100)
+        public async Task<IActionResult> GetLogs( uint deviceId, [FromQuery] uint startEventId = 0,[FromQuery] uint max = 100)
         {
             var device = CheckDevice.GetDeviceOrThrow(_manager, deviceId);
 
             var logs = await device.Services
-                .CreateTnaSvc()
-                .GetLogsAsync(deviceId, startEventId, max);
+                .CreateTnaSvc().GetLogsAsync(deviceId, startEventId, max);
 
             return Ok(new ApiResponse<object>(
                 logs.TNAEvents,
